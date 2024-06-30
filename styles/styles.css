@@ -73,12 +73,13 @@ footer {
 aside {
     width: 20em;
     text-align: center;
+    position: relative;
 }
 
 aside h2{
     position: absolute;
-    top:680px;
-    left: 100px;
+    top:150px;
+    left: 80px;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
 }
