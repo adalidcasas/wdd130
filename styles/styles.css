@@ -60,7 +60,8 @@ footer {
     box-sizing: border-box;
 }
 
-/*Class Selectors  */
+
+/* Class Selectors */
 .box {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -75,6 +76,9 @@ aside {
 }
 
 aside h2{
-    position: relative;
-    left: 6px;
+    position: absolute;
+    top:680px;
+    left: 100px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4);
 }
