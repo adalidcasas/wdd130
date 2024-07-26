@@ -54,6 +54,7 @@ p{
 a{
     text-decoration: none;
 }
+
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
@@ -233,3 +234,116 @@ button:hover{
     margin: 0;
     grid-template-columns: 1fr 3fr;
 }
+
+/*trip page*/
+.trip-header{
+    position: relative;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    background-color: #DDD;
+    color: #000;
+    height: 200px;
+}
+
+.trip-header h1{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.trip-header p{
+    position: absolute;
+    top: 80px;
+    left: 40px;    
+    padding: 10px 50px 10px 5px;
+}
+
+.trip-header button{
+    position: absolute;
+    top: 150px;
+    left: 700px;
+    padding: 10px 30px ;
+}
+.trip-header a{
+    text-decoration: none;
+}
+
+.trip-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.trip-box{
+    position: relative;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    background-color: #DDD;
+    color: #000;
+    height: 300px;
+}
+
+.trip-box img {
+    position: absolute;
+    width: auto;
+    height: 170px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.trip-box h2{
+    position: absolute;
+    top: 120px;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+.trip-box p{
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.available-trips-list{
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.available-trips-grid{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+}
+
+.available-trips-grid img{
+    width: auto;
+    height:150px;
+    padding: 1rem;
+}
+.available-trips-grid-description{
+    display: flex;
+    flex-direction: column;
+}
+.available-trips-grid-description h3{
+    color: #000;
+    padding: 0;
+    margin: 20px 20px 0;
+}
+.available-trips-grid-description  p{
+    padding: 0;
+    margin: 20px 20px 0;
+}
+.available-trips-grid-description button{
+    padding: 10px 30px;
+    max-width: 250px;
+    align-self:self-end;
+    color: black;
+}
+
+
+
